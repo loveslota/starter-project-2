@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .outer-col-1 {
+    background: #D7E8D4;
+    flex: 1;
+  }
+  .outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .inner-col {
+    flex: 4;
+  }
+  .inner-row article {
+    min-height: 60vh;
+  }
+  .inner-row aside {
+    background: beige;
+    flex: 1;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+  header {
+    background: yellowgreen;
+    height: 20vh;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    padding: 3px;
+    background-image: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/altocumulus.jpg/altocumulus.jpg/metofficegovuk%3AheroXXLarge);
+    border: 4px solid firebrick;
+    background-size: 100% 100%;
+    font-family: Raleway, "Open Sans", sans-serif;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
